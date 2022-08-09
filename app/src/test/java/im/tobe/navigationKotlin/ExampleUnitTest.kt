@@ -1,4 +1,4 @@
-package im.tobe.animalandroid
+package im.tobe.navigationKotlin
 
 import org.junit.Test
 

@@ -1,11 +1,11 @@
-package im.tobe.animalandroid.view
+package im.tobe.navigationKotlin.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import im.tobe.animalandroid.R
+import im.tobe.navigationKotlin.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
