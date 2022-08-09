@@ -14,10 +14,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // for the top left back button
         navController = Navigation.findNavController(this, R.id.fragmentContainerView)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
 
+    // for the top left back button
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController, null)
     }
